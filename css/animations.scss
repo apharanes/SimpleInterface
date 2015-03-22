@@ -1,0 +1,24 @@
+.floating {
+    -webkit-animation-name: HoverFloat;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: HoverFloat;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes HoverFloat {
+    from {
+        -webkit-transform: translate(0, -0px);
+    }
+
+    50% {
+        -webkit-transform: translate(0, 10px);
+    }
+
+    to {
+        -webkit-transform: translate(0, 0px);
+    }
+}
