@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/animations.css" />
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+        <title>Login Form</title>
+    </head>
+
+    <body>
+        <div id="main-content">
+            <div id="login-container">
+                <div id="login-box">
+                    <div class="login-header">
+                        <div class="logo rounded floating">
+                            <img src="img/me_1.png" />
+                        </div>
+
+                        <div class="username">apharanes</div>
+                    </div>
+
+                    <div class="login-body">
+                        <div class="greeting">
+                            <div class="header">
+                                Welcome back!
+                            </div>
+
+                            <div class="sub-greeting">
+                                Login with your password to continue.
+                            </div>
+                        </div>
+
+                        <div class="login-form">
+                            <form name="login">
+                                <div class="input-group">
+                                    <div class="label">
+                                        <span class="fa fa-key fa-lg"></span>
+                                    </div>
+                                    <input id="password" class="password" type="password" placeholder="Password" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="login-footer">
+                        <button id="signup" type="button">Signup</button>
+                        <button id="login" type="submit">
+                            Login <span class="fa fa-arrow-circle-right button-hover"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="forgot">
+                    <a href="#">Forgot your password?</a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/ui-router/src/urlRouter.js"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+</html>
